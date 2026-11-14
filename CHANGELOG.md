@@ -7,3 +7,4 @@
 - No published release or completed claims workflow.
 - Clarify implemented foundation capabilities, offline setup limits and remaining delivery gates in the project documentation.
 - Exclude local agent instruction, handoff and session-brief files from Git tracking and source/dependency archives.
+- Keep the detailed PRD local and exclude it from tracked source and archives.

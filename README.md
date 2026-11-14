@@ -58,11 +58,10 @@ Commands use `.venv/bin/python -m` to select the project's interpreter and depen
 
 ## Project documents
 
-- [Technical PRD v2.0](PolicySync_Technical_PRD_v2.0.md): supplied product baseline.
 - [Implementation plan](docs/implementation-plan.md): canonical task tracker and acceptance gates.
 - [Documentation index](docs/README.md), [offline dependency bundle](vendor/README.md), [contributing](CONTRIBUTING.md).
 
-Agent instruction and handoff files are local-only and excluded from source exports and the offline dependency archive. Use this README and the implementation plan to continue from an exported copy.
+The detailed PRD, agent instructions and handoff files are local-only and excluded from tracked source and exports. Use this README and the implementation plan to continue from an exported copy; obtain the PRD separately before feature work that depends on it.
 
 ## Connected development
 
