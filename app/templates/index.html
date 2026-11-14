@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PolicySync | Synthetic workspace</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <aside class="banner">DEMO — SYNTHETIC DATA ONLY</aside>
+  <main>
+    <p class="eyebrow">PolicySync / Professional indemnity</p>
+    <h1>Matter workspace</h1>
+    <p>A local foundation for reviewed claims evidence and handover.</p>
+    <section aria-labelledby="matters-heading">
+      <h2 id="matters-heading">Synthetic matters</h2>
+      {% if matters %}
+      <table>
+        <caption>Read-only seed inventory. Matter editing is not implemented.</caption>
+        <thead><tr><th>Reference</th><th>Insured alias</th><th>State</th></tr></thead>
+        <tbody>{% for matter in matters %}
+          <tr><td>{{ matter.external_claim_ref }}</td><td>{{ matter.insured_alias }}</td>
+          <td>{{ matter.state }}</td></tr>
+        {% endfor %}</tbody>
+      </table>
+      {% else %}<p>No matters yet. Run the documented synthetic seed command.</p>{% endif %}
+    </section>
+    <section><h2>Foundation only</h2>
+      <p>Evidence intake, review, instructions, handovers, reports and audit are still to be built.
+      No claim decision, dispatch or external connection is available.</p>
+    </section>
+  </main>
+</body>
+</html>

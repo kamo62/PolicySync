@@ -1,0 +1,7 @@
+# Keep local agent instructions, handoffs and session briefs out of exports.
+[Aa][Gg][Ee][Nn][Tt][Ss].[Mm][Dd] export-ignore
+**/[Aa][Gg][Ee][Nn][Tt][Ss].[Mm][Dd] export-ignore
+[Tt][Aa][Ss][Kk][Ss].[Mm][Dd] export-ignore
+**/[Tt][Aa][Ss][Kk][Ss].[Mm][Dd] export-ignore
+[Hh][Aa][Nn][Dd][Oo][Ff][Ff].[Mm][Dd] export-ignore
+**/[Hh][Aa][Nn][Dd][Oo][Ff][Ff].[Mm][Dd] export-ignore
