@@ -13,7 +13,6 @@ def main():
         "README.md",
         "CONTRIBUTING.md",
         "CHANGELOG.md",
-        "PolicySync_Technical_PRD_v2.0.md",
         "pyproject.toml",
         "uv.lock",
         "requirements.txt",
@@ -32,7 +31,8 @@ def main():
             if p.is_file()
             and "__pycache__" not in p.parts
             and p.suffix != ".pyc"
-            and p.name.casefold() not in {"agents.md", "handoff.md", "tasks.md"}
+            and p.name.casefold()
+            not in {"agents.md", "handoff.md", "tasks.md", "policysync_technical_prd_v2.0.md"}
         )
     if any(not p.is_file() for p in paths):
         raise SystemExit("A required handoff file is missing")

@@ -1,6 +1,6 @@
 # PolicySync implementation plan
 
-**Planning baseline:** [Technical PRD v2.0](../PolicySync_Technical_PRD_v2.0.md), 14 November 2026. **Status:** runnable synthetic-only foundation; P0 incomplete, no professional or live-pilot approval. **Tracking:** F0–F2 foundation delivered within the limits below; F4 has read-only seed inventory only. F3 and all remaining feature work are unstarted. Update this plan as work proceeds.
+**Planning baseline:** Technical PRD v2.0, 14 November 2026, supplied separately and excluded from tracked source/archives. **Status:** runnable synthetic-only foundation; P0 incomplete, no professional or live-pilot approval. **Tracking:** F0–F2 foundation delivered within the limits below; F4 has read-only seed inventory only. F3 and all remaining feature work are unstarted. Update this plan as work proceeds.
 
 ## Sources and interpretation
 
@@ -10,7 +10,7 @@ The v2.0 PRD is the available implementation baseline and consolidates earlier r
 
 ## Scope and boundaries
 
-Repository setup verification (14 November 2026): all 11 local Markdown links resolve; all 22 FR identifiers appear in this plan; `.env` and private runtime paths are ignored while `.env.example` is trackable. Hash comparison confirms the supplied PRD is unchanged apart from the linked §14.5 research supplement. Subsequent foundation verification is recorded below. Lark evidence is source review only; live checks remain outstanding in the technical notes.
+Repository setup verification (14 November 2026): all 11 local Markdown links resolve; all 22 FR identifiers appear in this plan; `.env` and private runtime paths are ignored while `.env.example` is trackable. Hash comparison confirmed the supplied PRD was unchanged apart from its §14.5 research supplement. It is now retained locally, untracked and excluded from source/dependency archives; earlier published Git history is not rewritten by this change. Subsequent foundation verification is recorded below. Lark evidence is source review only; live checks remain outstanding in the technical notes.
 
 - **P0, required:** local, synthetic PI matter workspace, evidence and reviewed provenance, conflicts and policy questions, parties, tasks and simulated instructions, handover, reviewed insurer report, local audit export, instrumentation and optional CRM link. Use manual or deterministic demo proposals; no model or external service is needed. A single demo identity or simulated roles is not secure authorisation.
 - **P1, required before live pilot:** identity, server-side authorisation and matter barriers, isolated customer deployment, MFA, security and recovery, retention and legal hold, permissions and professional/governance approvals; controlled imports, financial oversight and communication controls. AI assistance is optional even at P1 and requires its own approvals. No real customer information until all applicable gates are satisfied.
