@@ -15,6 +15,6 @@ Use focused branches for implementation. Preserve unrelated work and stage only 
 
 Follow the PRD's Python/SQLite stack and repository layout. Dependencies are locked in `uv.lock` and exported with hashes. Offline work must use the bundled Linux wheels; do not add or upgrade dependencies without preparing a replacement bundle on a connected machine.
 
-Run the smallest relevant checks and record actual results in the plan or PR. Documentation changes require link and source checks, not an application build. Run `.venv/bin/python -m pytest -q`, `.venv/bin/python -m ruff check .` and `.venv/bin/python -m ruff format --check .`. CI is defined in `.github/workflows/check.yml`; no remote CI run has occurred.
+Run the smallest relevant checks and record actual results in the plan or PR. Documentation changes require link and source checks, not an application build. Run `.venv/bin/python -m pytest -q`, `.venv/bin/python -m ruff check .` and `.venv/bin/python -m ruff format --check .`. CI is defined in `.github/workflows/check.yml`; [the initial Linux run](https://github.com/kamo62/PolicySync/actions/runs/43577808396) passed offline installation, tests and Ruff.
 
 Use `pyproject.toml` as the application version source and `CHANGELOG.md` for changes. The initial development version is `0.1.0.dev0`; no release is published. PRD version 2.0 is a document version, not an application release number.

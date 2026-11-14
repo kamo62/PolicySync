@@ -82,7 +82,7 @@ Python/FastAPI, SQLAlchemy 2.x, Alembic, SQLite and Jinja2 are configured. HTMX 
 
 ## Verification and release status
 
-The [implementation plan](docs/implementation-plan.md#offline-foundation-delivery-evidence-14-november-2026) records nine passing local macOS/Python 3.12 foundation tests and passing Ruff checks. Native Linux installation/runtime, remote CI and visual browser inspection are not yet verified. Passing foundation tests does not establish the PRD's P0 acceptance gates.
+The [implementation plan](docs/implementation-plan.md#offline-foundation-delivery-evidence-14-november-2026) records nine passing local macOS/Python 3.12 foundation tests and passing Ruff checks. [Linux CI](https://github.com/kamo62/PolicySync/actions/runs/43577808396) also passed offline installation, all nine tests and Ruff on Ubuntu 24.04/Python 3.12. Interactive Linux server/browser inspection and the full P0 acceptance scenarios remain unverified. Passing foundation tests does not establish the PRD's P0 acceptance gates.
 
 Initial development version: `0.1.0.dev0` in `pyproject.toml`; see [changelog](CHANGELOG.md). Public source: [kamo62/PolicySync](https://github.com/kamo62/PolicySync). No application release or deployment has been published. No root application licence has been selected; public visibility alone does not grant redistribution rights.
 
