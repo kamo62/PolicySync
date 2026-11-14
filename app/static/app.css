@@ -1,0 +1,10 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #18323b; background: #f3f5f2; }
+body { margin: 0; }
+.banner { background: #f6dfa2; padding: .8rem 1.5rem; font-weight: 700; text-align: center; }
+main { max-width: 64rem; margin: 3rem auto; padding: 0 1.5rem; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin: .5rem 0; }
+.eyebrow { text-transform: uppercase; letter-spacing: .1em; font-size: .8rem; }
+section { margin-top: 2rem; padding: 1.5rem; border: 1px solid #c8d3cc; background: white; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+th, td { padding: .8rem; border-bottom: 1px solid #d5ded8; }
+caption { text-align: left; padding-bottom: 1rem; color: #475d61; }
